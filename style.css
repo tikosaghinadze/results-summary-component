@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  background: #ecf2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.result-summary-container {
+  background: #fff;
+  max-width: 375px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+/*********************/
+/*RESULT SECTION*/
+/*********************/
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 0px 0px 32px 32px;
+  box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+  background-image: linear-gradient(
+    180deg,
+    #75f 0%,
+    #6943ff 0.01%,
+    #2f2ce9 100%
+  );
+  padding: 24px 58px 40px;
+}
+.title-result {
+  color: #cac9ff;
+  font-size: 18px;
+}
+.result-score {
+  width: 140px;
+  height: 140px;
+  background-image: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  color: #cac9ff;
+}
+.result-span {
+  color: #fff;
+  font-weight: 800;
+  line-height: 72px;
+  font-size: 56px;
+}
+.result-rank {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.sumarry-p {
+  width: 260px;
+  color: #cac9ff;
+}
+/*********************/
+/*SUMMARY SECTION*/
+/*********************/
+.summary {
+  padding: 30px;
+}
+
+.heading-summary {
+  color: #303b59;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.summary-items {
+  display: flex;
+  justify-content: space-between;
+  width: 315px;
+  height: 56px;
+  border-radius: 12px;
+  margin: 24px auto;
+}
+.flex-group {
+  display: flex;
+  gap: 12px;
+}
+.items-heading {
+  font-size: 16px;
+  font-weight: 500;
+}
+.summary-span {
+  color: #303b59;
+  font-size: 16px;
+  font-weight: 700;
+}
+.summary-score {
+  color: #576897;
+}
+.item1 {
+  color: #f55;
+
+  background-color: rgb(250, 228, 228);
+}
+.item2 {
+  color: #ffb21e;
+  background-color: #fff5e3;
+}
+.item3 {
+  color: #00bb8f;
+  background-color: #dbfaf3;
+}
+.item4 {
+  color: #1125d6;
+  background-color: #e4e5f3;
+}
+.btn {
+  width: 315px;
+  height: 56px;
+  border-radius: 128px;
+  background-color: #303b59;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+@media (min-width: 1440px) {
+  body {
+    align-items: start;
+  }
+}
